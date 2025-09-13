@@ -40,13 +40,10 @@ jobs:
       - name: Lint
         run: npm run lint -- --max-warnings=0
 
-      - name: Build
+      - name: Build and Export
         run: npm run build
         env:
           NEXT_PUBLIC_API_URL: ${{ secrets.NEXT_PUBLIC_API_URL }}
-
-      - name: Export static site
-        run: npx next export -o out
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
