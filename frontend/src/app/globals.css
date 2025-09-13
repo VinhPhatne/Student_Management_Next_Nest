@@ -24,3 +24,56 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* Override browser default styles that make text appear faded */
+button,
+input,
+select,
+optgroup,
+textarea {
+  color: inherit !important;
+  opacity: 1 !important;
+  background-color: transparent;
+  border-radius: 0;
+}
+
+/* Ensure form elements have proper text color */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+input[type="url"],
+input[type="search"],
+textarea,
+select {
+  color: #1f2937 !important; /* gray-800 */
+  opacity: 1 !important;
+}
+
+/* Button text should be clearly visible */
+button {
+  color: inherit !important;
+  opacity: 1 !important;
+}
+
+/* Override any inherited styles that might make text faded */
+* {
+  color: inherit;
+}
+
+/* Ensure text in specific elements is not faded */
+p,
+span,
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+label,
+a {
+  color: inherit !important;
+  opacity: 1 !important;
+}
