@@ -24,3 +24,23 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* Override browser default styles that make text appear faded */
+button, input, select, optgroup, textarea {
+  opacity: 1 !important;
+  background-color: transparent;
+  border-radius: 0;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+input[type="url"],
+input[type="search"],
+textarea,
+select {
+  color: #1f2937 !important;
+  opacity: 1 !important;
+}
