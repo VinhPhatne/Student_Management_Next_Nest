@@ -175,7 +175,7 @@ export default function HomePage() {
                   </span>
                 </div>
                 <div className="mt-8">
-                  <h3 className="text-lg font-medium">
+                  <h3 className="text-lg font-medium text-gray-500">
                     <span className="absolute inset-0" aria-hidden="true" />
                     Quản lý lớp học
                   </h3>

@@ -26,11 +26,6 @@ body {
 }
 
 /* Override browser default styles that make text appear faded */
-button, input, select, optgroup, textarea {
-  opacity: 1 !important;
-  background-color: transparent;
-  border-radius: 0;
-}
 
 input[type="text"],
 input[type="email"],
