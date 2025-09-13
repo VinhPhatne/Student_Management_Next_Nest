@@ -10,25 +10,25 @@ interface LayoutProps {
 }
 
 const navigation = [
-  { name: "Trang chủ", href: "/Student_Management_Next_Nest/", icon: Home },
+  { name: "Trang chủ", href: "/", icon: Home },
   {
     name: "Lớp học",
-    href: "/Student_Management_Next_Nest/classes",
+    href: "/classes",
     icon: GraduationCap,
   },
   {
     name: "Học sinh",
-    href: "/Student_Management_Next_Nest/students",
+    href: "/students",
     icon: Users,
   },
   {
     name: "Bài test",
-    href: "/Student_Management_Next_Nest/tests",
+    href: "/tests",
     icon: BookOpen,
   },
   {
     name: "Thống kê",
-    href: "/Student_Management_Next_Nest/statistics",
+    href: "/statistics",
     icon: BarChart3,
   },
 ];
