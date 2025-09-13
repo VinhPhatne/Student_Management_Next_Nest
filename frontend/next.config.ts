@@ -6,6 +6,14 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized: true,
   },
+  assetPrefix:
+    process.env.NODE_ENV === "production"
+      ? "/Student_Management_Next_Nest"
+      : "",
+  basePath:
+    process.env.NODE_ENV === "production"
+      ? "/Student_Management_Next_Nest"
+      : "",
 };
 
 export default nextConfig;

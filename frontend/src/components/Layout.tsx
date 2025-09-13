@@ -10,11 +10,27 @@ interface LayoutProps {
 }
 
 const navigation = [
-  { name: "Trang chủ", href: "/", icon: Home },
-  { name: "Lớp học", href: "/classes", icon: GraduationCap },
-  { name: "Học sinh", href: "/students", icon: Users },
-  { name: "Bài test", href: "/tests", icon: BookOpen },
-  { name: "Thống kê", href: "/statistics", icon: BarChart3 },
+  { name: "Trang chủ", href: "/Student_Management_Next_Nest/", icon: Home },
+  {
+    name: "Lớp học",
+    href: "/Student_Management_Next_Nest/classes",
+    icon: GraduationCap,
+  },
+  {
+    name: "Học sinh",
+    href: "/Student_Management_Next_Nest/students",
+    icon: Users,
+  },
+  {
+    name: "Bài test",
+    href: "/Student_Management_Next_Nest/tests",
+    icon: BookOpen,
+  },
+  {
+    name: "Thống kê",
+    href: "/Student_Management_Next_Nest/statistics",
+    icon: BarChart3,
+  },
 ];
 
 export default function Layout({ children }: LayoutProps) {
@@ -62,5 +78,3 @@ export default function Layout({ children }: LayoutProps) {
     </div>
   );
 }
-
-

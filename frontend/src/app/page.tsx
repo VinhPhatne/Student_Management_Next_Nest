@@ -166,7 +166,7 @@ export default function HomePage() {
             </h3>
             <div className="grid grid-cols-1 gap-4 sm:grid-cols-3">
               <a
-                href="/classes"
+                href="/Student_Management_Next_Nest/classes"
                 className="relative group bg-white p-6 focus-within:ring-2 focus-within:ring-inset focus-within:ring-blue-500 rounded-lg border border-gray-200 hover:border-gray-300"
               >
                 <div>
@@ -186,7 +186,7 @@ export default function HomePage() {
               </a>
 
               <a
-                href="/students"
+                href="/Student_Management_Next_Nest/students"
                 className="relative group bg-white p-6 focus-within:ring-2 focus-within:ring-inset focus-within:ring-blue-500 rounded-lg border border-gray-200 hover:border-gray-300"
               >
                 <div>
@@ -206,7 +206,7 @@ export default function HomePage() {
               </a>
 
               <a
-                href="/tests"
+                href="/Student_Management_Next_Nest/tests"
                 className="relative group bg-white p-6 focus-within:ring-2 focus-within:ring-inset focus-within:ring-blue-500 rounded-lg border border-gray-200 hover:border-gray-300"
               >
                 <div>
